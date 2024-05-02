@@ -3,7 +3,7 @@
   --main-color: #E44444; /* var(--main-color) */
   --second-color: #CD487B; /* var(--second-color) */
   --light-grey-color: #EDEDED; /* var(--light-grey-color) */
-  --drak-grey-color: #4B4B4B; /* var(--drak-grey-color) */
+  --dark-grey-color: #4B4B4B; /* var(--dark-grey-color) */
 }
 
 body {
@@ -26,7 +26,6 @@ h3 {
 h2 {
 	text-align: center;
 }
-
 
 /*HEADER*/
 header {
@@ -62,8 +61,6 @@ h1 {
 	line-height: 75px;
 	color: white;
 }
-
-
 
 /*CONTENT*/
 section {
@@ -102,9 +99,8 @@ p {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 17px;
-	color: var(--drak-grey-color);
+	color: var(--dark-grey-color);
 }
-
 
 /***************/
 .directionRow {
@@ -164,8 +160,8 @@ p {
 }
 
 .buttonDarkGreyColor {
-	color: var(--drak-grey-color);
-	border-color: var(--drak-grey-color);
+	color: var(--dark-grey-color);
+	border-color: var(--dark-grey-color);
 }
 
 .buttonMainColor {
@@ -185,4 +181,9 @@ p {
 .buttonHighlight:hover {
 	font-weight: 800;
 	border-width: 3px;
+}
+
+.buttonMagentaPantoneEffect:hover {
+	color: var(--second-color);
+	border-color: var(--second-color);
 }
