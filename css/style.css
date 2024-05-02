@@ -27,7 +27,6 @@ h2 {
 	text-align: center;
 }
 
-
 /*HEADER*/
 header {
 	position: relative;
@@ -63,8 +62,6 @@ h1 {
 	color: white;
 }
 
-
-
 /*CONTENT*/
 section {
 	padding-bottom: 80px;
@@ -89,12 +86,15 @@ h3 {
 	margin-bottom: 0;
 }
 
+h3 .h3Foundators {
+	font-weight: 600;
+}
+
 article {
 	width: 15%;
 	margin: 0px 20px;
 	display: flex;
 	flex-direction: column;
-	text-align: center;
 }
 
 p {
@@ -105,7 +105,6 @@ p {
 	line-height: 17px;
 	color: var(--drak-grey-color);
 }
-
 
 /***************/
 .directionRow {
@@ -130,7 +129,8 @@ p {
 	color:  white;
 }
 
-.textCenter {
+.textAlignCenterSection h3,
+.textAlignCenterSection p {
 	text-align: center;
 }
 
@@ -147,7 +147,6 @@ p {
 
 	border-style: solid;
 	border-width: 2px;
-	border-radius: 5px;
 
 	box-sizing: border-box;
 
@@ -180,7 +179,7 @@ p {
 }
 
 .buttonRounded {
-	border-radius: 39px;
+	border-radius: 38px;
 }
 
 .buttonHighlight:hover {
