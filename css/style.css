@@ -163,7 +163,7 @@ p {
 	text-decoration: none;
 }
 
-.buttonDrakGreyColor {
+.buttonDarkGreyColor {
 	color: var(--drak-grey-color);
 	border-color: var(--drak-grey-color);
 }
@@ -179,7 +179,7 @@ p {
 }
 
 .buttonRounded {
-	border-radius: 39px;
+	border-radius: 38px;
 }
 
 .buttonHighlight:hover {
