@@ -1,0 +1,59 @@
+/* Planning section */
+.sectionLightGreyBackground {
+	background-color: var(--light-grey-color);
+}
+
+.button {
+	margin: 20px 0px;
+	padding: 28px 40px;
+
+	background-color: white;
+
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+
+	box-sizing: border-box;
+
+	font-family: 'Archivo';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 17px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	text-decoration: none;
+}
+
+.buttonDarkGreyColor {
+	color: var(--dark-grey-color);
+	border-color: var(--dark-grey-color);
+}
+
+.buttonMainColor {
+	color: var(--main-color);
+	border-color: var(--main-color);
+}
+
+.buttonSecondColor {
+	color: var(--second-color);
+	border-color: var(--second-color);
+}
+
+.buttonRounded {
+	border-radius: 38px;
+}
+
+.buttonHighlight:hover {
+	font-weight: 800;
+	border-width: 3px;
+}
+
+/* https://www.colorhexa.com/cd487b */
+.buttonMagentaPantoneEffect:hover {
+	color: var(--second-color);
+	border-color: var(--second-color);
+}
