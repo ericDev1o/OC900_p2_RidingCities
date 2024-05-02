@@ -102,7 +102,7 @@ p {
 	color: var(--dark-grey-color);
 }
 
-/***************/
+/* Members section */
 .directionRow {
 	display: flex;
 	flex-direction: row;
@@ -129,7 +129,7 @@ p {
 	text-align: center;
 }
 
-/***************/
+/* Planning section */
 .sectionLightGreyBackground {
 	background-color: var(--light-grey-color);
 }
@@ -183,6 +183,7 @@ p {
 	border-width: 3px;
 }
 
+/* https://www.colorhexa.com/cd487b */
 .buttonMagentaPantoneEffect:hover {
 	color: var(--second-color);
 	border-color: var(--second-color);
